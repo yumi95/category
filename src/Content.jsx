@@ -45,8 +45,8 @@ const Content = props => {
             <div>
             <br />
             <br />
-            <Grid container spacing={2}>
-                <Grid item xs={12} sm = {3} >
+            <Grid container spacing={2} justify="center">
+                <Grid item xs={10} sm = {3} >
                 <form onSubmit = {ButtonHandlerA}>
                 <Button 
                 fullWidth
@@ -58,7 +58,7 @@ const Content = props => {
                 </Button>
                 </form>
                 </Grid>
-                <Grid item xs={12} sm = {3} >
+                <Grid item xs={10} sm = {3} >
                 <form onSubmit = {ButtonHandlerB}>
                 <Button 
                 fullWidth 
@@ -70,7 +70,7 @@ const Content = props => {
                 </Button>
                 </form>
                 </Grid>
-                <Grid item xs={12} sm = {3} >
+                <Grid item xs={10} sm = {3} >
                 <form onSubmit = {ButtonHandlerC}>
                 <Button 
                 fullWidth 
@@ -82,7 +82,7 @@ const Content = props => {
                 </Button>
                 </form>
                 </Grid>
-                <Grid item xs={12} sm = {3} >
+                <Grid item xs={10} sm = {3} >
                 <form onSubmit = {ButtonHandlerD}>
                 <Button 
                 fullWidth 
@@ -94,7 +94,7 @@ const Content = props => {
                 </Button>
                 </form>
                 </Grid>
-                <Grid item xs={12} sm = {3} >
+                <Grid item xs={10} sm = {3} >
                 <Button fullWidth variant="contained" color="primary" style={{height:'160px', fontSize:'20px'}}>
                 메인으로<br />돌아가기
                 </Button>
@@ -106,8 +106,8 @@ const Content = props => {
                 <div>
                 <br />
                 <br />
-                <Grid container spacing={2}>
-                    <Grid item xs={12} sm = {3} >
+                <Grid container spacing={2} justify="center">
+                    <Grid item xs={10} sm = {3} >
                     <Button 
                     fullWidth
                     variant="contained" 
@@ -117,7 +117,7 @@ const Content = props => {
                     보조도구
                     </Button>
                     </Grid>
-                    <Grid item xs={12} sm = {3} >
+                    <Grid item xs={10} sm = {3} >
                     <Button 
                     fullWidth 
                     variant="contained" 
@@ -126,7 +126,7 @@ const Content = props => {
                     생활용품
                     </Button>
                     </Grid>
-                    <Grid item xs={12} sm = {3} >
+                    <Grid item xs={10} sm = {3} >
                     <form onSubmit = {ButtonHandler}>
                     <Button 
                     fullWidth 
@@ -146,8 +146,8 @@ const Content = props => {
                         <div>
                         <br />
                         <br />
-                        <Grid container spacing={2}>
-                            <Grid item xs={12} sm = {3} >
+                        <Grid container spacing={2} justify="center">
+                            <Grid item xs={10} sm = {3} >
                             <Button 
                             fullWidth
                             variant="contained" 
@@ -157,7 +157,7 @@ const Content = props => {
                             티셔츠
                             </Button>
                             </Grid>
-                            <Grid item xs={12} sm = {3} >
+                            <Grid item xs={10} sm = {3} >
                             <Button 
                             fullWidth 
                             variant="contained" 
@@ -167,7 +167,7 @@ const Content = props => {
                             /후드티
                             </Button>
                             </Grid>
-                            <Grid item xs={12} sm = {3} >
+                            <Grid item xs={10} sm = {3} >
                             <Button 
                             fullWidth 
                             variant="contained" 
@@ -176,7 +176,7 @@ const Content = props => {
                             셔츠
                             </Button>
                             </Grid>
-                            <Grid item xs={12} sm = {3} >
+                            <Grid item xs={10} sm = {3} >
                             <Button 
                             fullWidth 
                             variant="contained" 
@@ -185,7 +185,7 @@ const Content = props => {
                             바지
                             </Button>
                             </Grid>
-                            <Grid item xs={12} sm = {3} >
+                            <Grid item xs={10} sm = {3} >
                             <Button 
                             fullWidth 
                             variant="contained" 
@@ -194,7 +194,7 @@ const Content = props => {
                             운동복
                             </Button>
                             </Grid>
-                            <Grid item xs={12} sm = {3} >
+                            <Grid item xs={10} sm = {3} >
                             <Button 
                             fullWidth 
                             variant="contained" 
@@ -203,7 +203,7 @@ const Content = props => {
                             니트류
                             </Button>
                             </Grid>
-                            <Grid item xs={12} sm = {3} >
+                            <Grid item xs={10} sm = {3} >
                             <Button 
                             fullWidth 
                             variant="contained" 
@@ -212,7 +212,7 @@ const Content = props => {
                             아우터
                             </Button>
                             </Grid>
-                            <Grid item xs={12} sm = {3} >
+                            <Grid item xs={10} sm = {3} >
                             <Button 
                             fullWidth 
                             variant="contained" 
@@ -221,7 +221,7 @@ const Content = props => {
                             커플룩
                             </Button>
                             </Grid>
-                            <Grid item xs={12} sm = {3} >
+                            <Grid item xs={10} sm = {3} >
                             <form onSubmit = {ButtonHandler}>
                             <Button 
                             fullWidth 
@@ -242,8 +242,8 @@ const Content = props => {
                                 <div>
                                 <br />
                                 <br />
-                                <Grid container spacing={2}>
-                                    <Grid item xs={12} sm = {3} >
+                                <Grid container spacing={2} justify="center">
+                                    <Grid item xs={10} sm = {3} >
                                     <Button 
                                     fullWidth
                                     variant="contained" 
@@ -253,7 +253,7 @@ const Content = props => {
                                     의류
                                     </Button>
                                     </Grid>
-                                    <Grid item xs={12} sm = {3} >
+                                    <Grid item xs={10} sm = {3} >
                                     <Button 
                                     fullWidth 
                                     variant="contained" 
@@ -262,7 +262,7 @@ const Content = props => {
                                     속옷/잠옷
                                     </Button>
                                     </Grid>
-                                    <Grid item xs={12} sm = {3} >
+                                    <Grid item xs={10} sm = {3} >
                                     <Button 
                                     fullWidth 
                                     variant="contained" 
@@ -271,7 +271,7 @@ const Content = props => {
                                     신발
                                     </Button>
                                     </Grid>
-                                    <Grid item xs={12} sm = {3} >
+                                    <Grid item xs={10} sm = {3} >
                                     <Button 
                                     fullWidth 
                                     variant="contained" 
@@ -280,7 +280,7 @@ const Content = props => {
                                     잡화
                                     </Button>
                                     </Grid>
-                                    <Grid item xs={12} sm = {3} >
+                                    <Grid item xs={10} sm = {3} >
                                     <form onSubmit = {ButtonHandler}>
                                     <Button 
                                     fullWidth 
@@ -300,8 +300,8 @@ const Content = props => {
                                         <div>
                                         <br />
                                         <br />
-                                        <Grid container spacing={2}>
-                                            <Grid item xs={12} sm = {3} >
+                                        <Grid container spacing={2} justify="center">
+                                            <Grid item xs={10} sm = {3} >
                                             <Button 
                                             fullWidth
                                             variant="contained" 
@@ -311,7 +311,7 @@ const Content = props => {
                                             의류
                                             </Button>
                                             </Grid>
-                                            <Grid item xs={12} sm = {3} >
+                                            <Grid item xs={10} sm = {3} >
                                             <Button 
                                             fullWidth 
                                             variant="contained" 
@@ -320,7 +320,7 @@ const Content = props => {
                                             속옷/잠옷
                                             </Button>
                                             </Grid>
-                                            <Grid item xs={12} sm = {3} >
+                                            <Grid item xs={10} sm = {3} >
                                             <Button 
                                             fullWidth 
                                             variant="contained" 
@@ -329,7 +329,7 @@ const Content = props => {
                                             신발
                                             </Button>
                                             </Grid>
-                                            <Grid item xs={12} sm = {3} >
+                                            <Grid item xs={10} sm = {3} >
                                             <Button 
                                             fullWidth 
                                             variant="contained" 
@@ -338,7 +338,7 @@ const Content = props => {
                                             가방/잡화
                                             </Button>
                                             </Grid>
-                                            <Grid item xs={12} sm = {3} >
+                                            <Grid item xs={10} sm = {3} >
                                             <form onSubmit = {ButtonHandler}>
                                             <Button 
                                             fullWidth 
